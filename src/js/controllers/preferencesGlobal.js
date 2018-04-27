@@ -3,7 +3,7 @@
 angular.module('copayApp.controllers').controller('preferencesGlobalController',
   function($scope, $rootScope, $log, configService, uxLanguage, pushNotificationsService, profileService) {
 	
-		var conf = require('byteballcore/conf.js');
+		var conf = require('millixcore/conf.js');
   
     $scope.encrypt = !!profileService.profile.xPrivKeyEncrypted;
     
@@ -12,7 +12,7 @@ angular.module('copayApp.controllers').controller('preferencesGlobalController',
       this.unitName = config.wallet.settings.unitName;
       this.bbUnitName = config.wallet.settings.bbUnitName;
       this.deviceName = config.deviceName;
-      this.myDeviceAddress = require('byteballcore/device.js').getMyDeviceAddress();
+      this.myDeviceAddress = require('millixcore/device.js').getMyDeviceAddress();
       this.hub = config.hub;
       this.emailAttestor = config.emailAttestor;
       this.currentLanguageName = uxLanguage.getCurrentLanguageName();

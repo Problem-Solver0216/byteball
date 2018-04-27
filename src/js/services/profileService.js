@@ -1,7 +1,7 @@
 'use strict';
 
-var breadcrumbs = require('byteballcore/breadcrumbs.js');
-var constants = require('byteballcore/constants.js');
+var breadcrumbs = require('millixcore/breadcrumbs.js');
+var constants = require('millixcore/constants.js');
 
 angular.module('copayApp.services')
   .factory('profileService', function profileServiceFactory($rootScope, $location, $timeout, $filter, $log, lodash, storageService, bwcService, configService, pushNotificationsService, isCordova, gettext, gettextCatalog, nodeWebkit, uxLanguage) {
@@ -192,8 +192,8 @@ angular.module('copayApp.services')
                     return cb(err);
                 root._setFocus(focusedWalletId, function() {
                     console.log("focusedWalletId", focusedWalletId);
-					var Wallet = require('byteballcore/wallet.js');
-					var device = require('byteballcore/device.js');
+					var Wallet = require('millixcore/wallet.js');
+					var device = require('millixcore/device.js');
                     var config = configService.getSync();
                     var firstWc = root.walletClients[lodash.keys(root.walletClients)[0]];
                     if (root.profile.xPrivKeyEncrypted){
@@ -324,8 +324,8 @@ angular.module('copayApp.services')
             if (err)
                 return cb(err);
             var config = configService.getSync();
-			require('byteballcore/wallet.js'); // load hub/ message handlers
-			var device = require('byteballcore/device.js');
+			require('millixcore/wallet.js'); // load hub/ message handlers
+			var device = require('millixcore/device.js');
             var tempDeviceKey = device.genPrivKey();
 			// initDeviceProperties sets my_device_address needed by walletClient.createWallet
 			walletClient.initDeviceProperties(walletClient.credentials.xPrivKey, null, config.hub, config.deviceName);
@@ -364,7 +364,7 @@ angular.module('copayApp.services')
 			});
 			return console.log('need password to create new wallet');
 		}
-		var walletDefinedByKeys = require('byteballcore/wallet_defined_by_keys.js');
+		var walletDefinedByKeys = require('millixcore/wallet_defined_by_keys.js');
         walletDefinedByKeys.readNextAccount(function(account){
             console.log("next account = "+account);
             if (!opts.extendedPrivateKey && !opts.mnemonic){
@@ -450,7 +450,7 @@ angular.module('copayApp.services')
         // check if exists
         var w = lodash.find(root.profile.credentials, { 'walletId': walletId });
         if (w)
-            return cb(gettext('Wallet already in Byteball' + ": ") + w.walletName);
+            return cb(gettext('Wallet already in Millix' + ": ") + w.walletName);
 
         root.profile.credentials.push(JSON.parse(walletClient.export()));
         root.setWalletClients();
@@ -750,7 +750,7 @@ angular.module('copayApp.services')
 	};
 		
 	root.replaceProfile = function (xPrivKey, mnemonic, myDeviceAddress, cb) {
-		var device = require('byteballcore/device.js');
+		var device = require('millixcore/device.js');
 		
 		root.profile.credentials = [];
 		root.profile.xPrivKey = xPrivKey;

@@ -2,7 +2,7 @@
 
 angular.module('copayApp.controllers').controller('preferencesInformation',
   function($scope, $log, $timeout, isMobile, gettextCatalog, lodash, profileService, storageService, go, configService) {
-	var constants = require('byteballcore/constants.js');
+	var constants = require('millixcore/constants.js');
     var fc = profileService.focusedClient;
     var c = fc.credentials;
 
@@ -95,7 +95,7 @@ angular.module('copayApp.controllers').controller('preferencesInformation',
             return;
           };
 
-          var body = 'Byteball Wallet "' + $scope.walletName + '" Addresses.\n\n';
+          var body = 'Millix Wallet "' + $scope.walletName + '" Addresses.\n\n';
           body += "\n";
           body += addrs.map(function(v) {
             return ('* ' + v.address + ' ' + v.path + ' ' + formatDate(v.createdOn));
@@ -103,7 +103,7 @@ angular.module('copayApp.controllers').controller('preferencesInformation',
 
           window.plugins.socialsharing.shareViaEmail(
             body,
-            'Byteball Addresses',
+            'Millix Addresses',
             null, // TO: must be null or an array
             null, // CC: must be null or an array
             null, // BCC: must be null or an array

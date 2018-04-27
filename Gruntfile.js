@@ -20,10 +20,10 @@ module.exports = function(grunt) {
         command: 'rm -Rf bower_components node_modules'
       },
       osx64: {
-        command: '../byteballbuilds/build-osx.sh osx64'
+        command: '../millixbuilds/build-osx.sh osx64'
       },
       osx32: {
-        command: '../byteballbuilds/build-osx.sh osx32'
+        command: '../millixbuilds/build-osx.sh osx32'
       }
     },
     watch: {
@@ -90,11 +90,11 @@ module.exports = function(grunt) {
           'src/js/version.js',
           'src/js/init.js'
         ],
-        dest: 'public/byteball.js'
+        dest: 'public/millix.js'
       },
       css: {
         src: ['src/css/*.css'],
-        dest: 'public/css/byteball.css'
+        dest: 'public/css/millix.css'
       },
       foundation: {
         src: [
@@ -113,7 +113,7 @@ module.exports = function(grunt) {
       },
       prod: {
         files: {
-          'public/byteball.js': ['public/byteball.js'],
+          'public/millix.js': ['public/millix.js'],
           'public/angular.js': ['public/angular.js']
         }
       },
@@ -174,13 +174,13 @@ module.exports = function(grunt) {
         flatten: true,
         options: {timestamp: true, mode: true},
         src: ['webkitbuilds/build-osx.sh', 'webkitbuilds/Background.png'],
-        dest: '../byteballbuilds/'
+        dest: '../millixbuilds/'
       },
       linux: {
 		options: {timestamp: true, mode: true},
         files: [
-          {expand: true, cwd: './webkitbuilds/', src: ['byteball.desktop', '../public/img/icons/icon-white-outline.ico', '../public/img/icons/icon-white-256.png'], dest: '../byteballbuilds/Byteball/linux32/', flatten: true, filter: 'isFile', options: {timestamp: true, mode: true} },
-          {expand: true, cwd: './webkitbuilds/', src: ['byteball.desktop', '../public/img/icons/icon-white-outline.ico', '../public/img/icons/icon-white-256.png'], dest: '../byteballbuilds/Byteball/linux64/', flatten: true, filter: 'isFile', options: {timestamp: true, mode: true} },
+          {expand: true, cwd: './webkitbuilds/', src: ['millix.desktop', '../public/img/icons/icon-white-outline.ico', '../public/img/icons/icon-white-256.png'], dest: '../millixbuilds/Millix/linux32/', flatten: true, filter: 'isFile', options: {timestamp: true, mode: true} },
+          {expand: true, cwd: './webkitbuilds/', src: ['millix.desktop', '../public/img/icons/icon-white-outline.ico', '../public/img/icons/icon-white-256.png'], dest: '../millixbuilds/Millix/linux64/', flatten: true, filter: 'isFile', options: {timestamp: true, mode: true} },
         ],
       }
     },
@@ -207,35 +207,35 @@ module.exports = function(grunt) {
           //platforms: ['win','osx64','linux'],
           //platforms: ['osx64'],
           platforms: [getPlatform()],
-          appName: 'Byteball',
-          buildDir: '../byteballbuilds',
+          appName: 'Millix',
+          buildDir: '../millixbuilds',
           version: '0.14.7',
           zip: false,
           macIcns: './public/img/icons/icon-white-outline.icns',
           winIco: './public/img/icons/icon-white-outline.ico',
           exeIco: './public/img/icons/icon-white-outline.ico',
-          macPlist: {CFBundleURLTypes: [{CFBundleURLName: 'Byteball action', CFBundleURLSchemes: ['byteball']}], /*CFBundleIconFile: 'nw.icns',*/ LSHasLocalizedDisplayName: 0}
+          macPlist: {CFBundleURLTypes: [{CFBundleURLName: 'Millix action', CFBundleURLSchemes: ['millix']}], /*CFBundleIconFile: 'nw.icns',*/ LSHasLocalizedDisplayName: 0}
       },
       src: ['./package.json', './public/**/*', './angular-bitcore-wallet-client/**/*']
     },
     compress: {
       linux32: {
         options: {
-          archive: '../byteballbuilds/byteball-linux32.zip'
+          archive: '../millixbuilds/millix-linux32.zip'
         },
         expand: true,
-        cwd: '../byteballbuilds/Byteball/linux32/',
+        cwd: '../millixbuilds/Millix/linux32/',
         src: ['**/*'],
-        dest: 'byteball-linux32/'
+        dest: 'millix-linux32/'
       },
       linux64: {
         options: {
-          archive: '../byteballbuilds/byteball-linux64.zip'
+          archive: '../millixbuilds/millix-linux64.zip'
         },
         expand: true,
-        cwd: '../byteballbuilds/Byteball/linux64/',
+        cwd: '../millixbuilds/Millix/linux64/',
         src: ['**/*'],
-        dest: 'byteball-linux64/'
+        dest: 'millix-linux64/'
       }
     },
     browserify: {
@@ -243,8 +243,8 @@ module.exports = function(grunt) {
             options:{
                 exclude: ['sqlite3', 'nw.gui', 'mysql', 'ws', 'regedit']
             },
-            src: 'public/byteball.js',
-            dest: 'public/byteball.js'
+            src: 'public/millix.js',
+            dest: 'public/millix.js'
         },
 	    partialClient:{
 		    options:{
@@ -258,13 +258,13 @@ module.exports = function(grunt) {
     debian_package: {
         linux64: {
             files: [
-                {expand: true, cwd: '../byteballbuilds/byteball-test/linux64/', src: ['**/*'], dest: '/opt/byteball-test/'},
-                //{expand: true, cwd: '../byteballbuilds/byteball-test/linux64', src: ['byteball.desktop'], dest: '/usr/share/applications/byteball-test.desktop'}
+                {expand: true, cwd: '../millixbuilds/millix-test/linux64/', src: ['**/*'], dest: '/opt/millix-test/'},
+                //{expand: true, cwd: '../millixbuilds/millix-test/linux64', src: ['millix.desktop'], dest: '/usr/share/applications/millix-test.desktop'}
             ],
             options: {
                 maintainer: {
-                    name: 'Byteball',
-                    email: 'byteball@byteball.org'
+                    name: 'Millix',
+                    email: 'millix@millix.org'
                 },
                 long_description: 'Smart payments made simple',
                 target_architecture: 'amd64'

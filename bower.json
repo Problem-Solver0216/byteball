@@ -1,13 +1,13 @@
 {
-  "name": "byteball",
+  "name": "millix",
   "keywords": [
-    "byteball",
+    "millix",
     "wallet",
     "multisignature"
   ],
   "dependencies": {
     "angular": "1",
-    "angular-foundation": "byteball/angular-foundation",
+    "angular-foundation": "millix/angular-foundation",
     "angular-gettext": "2",
     "angular-touch": "1",
     "angular-carousel": "*",

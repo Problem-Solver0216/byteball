@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.byteball.wallet"
+<widget id="org.millix.wallet"
   version="2.2.0"
   android-versionCode="1065"
   ios-CFBundleVersion="2.2.0">
-    <name>Byteball</name>
+    <name>Millix</name>
     <description>
-      Byteball wallet.
+      Millix wallet.
     </description>
-    <author email="byteball@byteball.org" href="https://byteball.org">
-        Byteball
+    <author email="millix@millix.org" href="https://millix.org">
+        Millix
     </author>
     <content src="index.html" />
     <access origin="*" />

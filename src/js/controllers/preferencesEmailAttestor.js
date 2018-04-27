@@ -2,7 +2,7 @@
 
 angular.module('copayApp.controllers').controller('preferencesEmailAttestorController',
 	function($scope, $timeout, configService, go){
-		var ValidationUtils = require("byteballcore/validation_utils.js");
+		var ValidationUtils = require("millixcore/validation_utils.js");
 		var config = configService.getSync();
 		this.emailAttestor = config.emailAttestor;
 		var self = this;

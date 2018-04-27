@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: byteball\n"
+"Project-Id-Version: millix\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: byteball\n"
+"X-Crowdin-Project: millix\n"
 "X-Crowdin-Language: cs\n"
 "X-Crowdin-File: /master/i18n/po/template.pot\n"
 "Last-Translator: testz <testzcrypto@gmail.com>\n"
@@ -30,8 +30,8 @@ msgid "12 words separated by dashes"
 msgstr "12 slov oddělených pomlčkami"
 
 #: public/views/preferencesGlobal.html:135
-msgid "About Byteball"
-msgstr "O Byteballu"
+msgid "About Millix"
+msgstr "O Millixu"
 
 #: src/js/controllers/copayers.js:8
 #: src/js/controllers/preferencesDelete.js:9
@@ -109,8 +109,8 @@ msgid "All Wallet Addresses"
 msgstr "Všechny adresy peněženky"
 
 #: public/views/translators.html:52
-msgid "All contributions to Byteball's translation are welcome. Sign up at crowdin.com and join the Byteball project at"
-msgstr "Všechny příspevky k překladu na Byteball jsou vítání. Přihlašte se prosím na crowdin.com a přidejte se k projektu Byteball"
+msgid "All contributions to Millix's translation are welcome. Sign up at crowdin.com and join the Millix project at"
+msgstr "Všechny příspevky k překladu na Millix jsou vítání. Přihlašte se prosím na crowdin.com a přidejte se k projektu Millix"
 
 #: public/views/modals/multi-payment.html:56
 msgid "Already Paid"
@@ -159,8 +159,8 @@ msgid "Asset"
 msgstr "Majetek"
 
 #: public/views/walletHome.html:496
-msgid "Attest profile data linked to any Byteball address."
-msgstr "Potvďte profilová data propojená s jakoukoliv adresou Byteball."
+msgid "Attest profile data linked to any Millix address."
+msgstr "Potvďte profilová data propojená s jakoukoliv adresou Millix."
 
 #: public/views/walletHome.html:333
 msgid "Attestation"
@@ -241,8 +241,8 @@ msgid "Browser unsupported"
 msgstr "Nepodporovaný prohlížeč"
 
 #: public/views/modals/destination-address.html:119
-msgid "Byteball address"
-msgstr "Byteball adresa"
+msgid "Millix address"
+msgstr "Millix adresa"
 
 #: public/views/includes/password.html:24
 msgid "CANCEL"
@@ -416,7 +416,7 @@ msgid "Could not import. Check input file and password"
 msgstr "Chyba importu. Zkontrolujte soubor a heslo"
 
 #: src/js/controllers/walletHome.js:51
-msgid "Could not recognize a valid Byteball QR Code"
+msgid "Could not recognize a valid Millix QR Code"
 msgstr "Bytebal QR kód nebyl rozpoznán"
 
 #: src/js/controllers/walletHome.js:668
@@ -545,8 +545,8 @@ msgid "Download CSV file"
 msgstr "Stáhnout CSV soubor"
 
 #: public/views/splash.html:26
-msgid "Download the entire Byteball database"
-msgstr "Stáhnout celou databázi Byteball"
+msgid "Download the entire Millix database"
+msgstr "Stáhnout celou databázi Millix"
 
 #: public/views/correspondentDevice.html:26
 #: public/views/modals/destination-address.html:38
@@ -808,8 +808,8 @@ msgid "Multidevice Wallet"
 msgstr "Multi peněženka"
 
 #: public/views/walletHome.html:240
-msgid "My Byteball address"
-msgstr "Moje Byteball adresa"
+msgid "My Millix address"
+msgstr "Moje Millix adresa"
 
 #: public/views/correspondentDevice.html:297
 msgid "My recording preference"
@@ -976,8 +976,8 @@ msgid "Port"
 msgstr "Port"
 
 #: public/views/walletHome.html:502
-msgid "Post arbitrary key-value pairs of data into Byteball network."
-msgstr "Zašlete data libovolné dvojice klíč-hodnota do Byteball sítě."
+msgid "Post arbitrary key-value pairs of data into Millix network."
+msgstr "Zašlete data libovolné dvojice klíč-hodnota do Millix sítě."
 
 #: public/views/walletHome.html:493
 msgid "Post values into datafeeds manually, be an oracle."
@@ -1415,20 +1415,20 @@ msgid "To be able to restore everything, please create a full backup (find the o
 msgstr "Chcete-li mít možnost vše obnovit, vytvořte si prosím úplnou zálohu (tuto možnost najdete v menu)"
 
 #: public/views/walletHome.html:558
-msgid "To be able to send arbitrary data into Byteball network, please switch to a single-address wallet first or create one."
-msgstr "Chcete-li mít možnost přenos libovolných dat do Byteball sítě, přepněte si peněženku do stavu s jedinou adresou nebo si takovou vytvořte."
+msgid "To be able to send arbitrary data into Millix network, please switch to a single-address wallet first or create one."
+msgstr "Chcete-li mít možnost přenos libovolných dat do Millix sítě, přepněte si peněženku do stavu s jedinou adresou nebo si takovou vytvořte."
 
 #: public/views/walletHome.html:420
 msgid "To bind the payment to a condition, please click the peer's address in chat"
 msgstr "Abyste vytvořili podmíněnou platbu, klikněte na párovací adresu v chatu"
 
 #: public/views/walletHome.html:390
-msgid "To byteball address"
-msgstr "Na adresu byteball"
+msgid "To millix address"
+msgstr "Na adresu millix"
 
 #: public/views/walletHome.html:382
-msgid "To byteball address or email"
-msgstr "Na adresu byteball nebo e-mailu"
+msgid "To millix address or email"
+msgstr "Na adresu millix nebo e-mailu"
 
 #: public/views/modals/tx-details.html:44
 msgid "To email"
@@ -1558,8 +1558,8 @@ msgid "Wallet Name (at creation)"
 msgstr "Název peněženky (při vytváření)"
 
 #: src/js/services/profileService.js:436
-msgid "Wallet already in Byteball:"
-msgstr "Peněženka je již v Byteball:"
+msgid "Wallet already in Millix:"
+msgstr "Peněženka je již v Millix:"
 
 #: public/views/create.html:48
 msgid "Wallet name"
@@ -1751,8 +1751,8 @@ msgid "or"
 msgstr "nebo"
 
 #: public/views/backup.html:24
-msgid "or backup all Byteball data at"
-msgstr "nebo zálohovat všechna Byteball data na"
+msgid "or backup all Millix data at"
+msgstr "nebo zálohovat všechna Millix data na"
 
 #: public/views/modals/offer-contract.html:51
 msgid "peer pays"

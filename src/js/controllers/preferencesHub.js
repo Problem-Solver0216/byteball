@@ -11,8 +11,8 @@ angular.module('copayApp.controllers').controller('preferencesHubController',
 
     this.save = function() {
       var self = this;
-	  var device = require('byteballcore/device.js');
-	  var lightWallet = require('byteballcore/light_wallet.js');
+	  var device = require('millixcore/device.js');
+	  var lightWallet = require('millixcore/light_wallet.js');
 	  self.hub = self.hub.replace(/^wss?:\/\//i, '').replace(/^https?:\/\//i, '');
       device.setDeviceHub(self.hub);
       lightWallet.setLightVendorHost(self.hub);

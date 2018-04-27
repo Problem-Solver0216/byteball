@@ -5,7 +5,7 @@ angular.module('copayApp.controllers').controller('exportController',
 
 		var async = require('async');
 		var crypto = require('crypto');
-		var conf = require('byteballcore/conf');
+		var conf = require('millixcore/conf');
 		var zip;
 		if (isCordova) {
 			var JSZip = require("jszip");
@@ -72,7 +72,7 @@ angular.module('copayApp.controllers').controller('exportController',
 
 
 		function saveFile(file, cb) {
-			var backupFilename = 'ByteballBackup-' + $filter('date')(Date.now(), 'yyyy-MM-dd-HH-mm-ss') + '.encrypted';
+			var backupFilename = 'MillixBackup-' + $filter('date')(Date.now(), 'yyyy-MM-dd-HH-mm-ss') + '.encrypted';
 			if (!isCordova) {
 				var inputFile = document.getElementById('nwExportInputFile');
 				inputFile.setAttribute("nwsaveas", backupFilename);
@@ -83,7 +83,7 @@ angular.module('copayApp.controllers').controller('exportController',
 				};
 			}
 			else {
-				fileSystemService.cordovaWriteFile((isMobile.iOS() ? window.cordova.file.documentsDirectory : window.cordova.file.externalRootDirectory), 'Byteball', backupFilename, file, function(err) {
+				fileSystemService.cordovaWriteFile((isMobile.iOS() ? window.cordova.file.documentsDirectory : window.cordova.file.externalRootDirectory), 'Millix', backupFilename, file, function(err) {
 					cb(err);
 				});
 			}
@@ -172,7 +172,7 @@ angular.module('copayApp.controllers').controller('exportController',
 		self.walletExport = function() {
 			self.exporting = true;
 			self.error = '';
-			var db = require('byteballcore/db');
+			var db = require('millixcore/db');
 			db.takeConnectionFromPool(function(connection) {
 				if (isCordova) {
 					self.walletExportCordova(connection);

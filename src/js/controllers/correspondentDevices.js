@@ -5,9 +5,9 @@ angular.module('copayApp.controllers').controller('correspondentDevicesControlle
 	
 	var self = this;
 	
-	var wallet = require('byteballcore/wallet.js');
-	var bots = require('byteballcore/bots.js');
-	var mutex = require('byteballcore/mutex.js');
+	var wallet = require('millixcore/wallet.js');
+	var bots = require('millixcore/bots.js');
+	var mutex = require('millixcore/mutex.js');
 	$scope.editCorrespondentList = false;
 	$scope.selectedCorrespondentList = {};
 	var fc = profileService.focusedClient;
@@ -106,7 +106,7 @@ angular.module('copayApp.controllers').controller('correspondentDevicesControlle
 					unlock();
 					return console.log('device '+device_address+' is not removable');
 				}
-				var device = require('byteballcore/device.js');
+				var device = require('millixcore/device.js');
 
 				// send message to paired device
 				// this must be done before removing the device

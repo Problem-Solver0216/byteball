@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: byteball\n"
+"Project-Id-Version: millix\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: byteball\n"
+"X-Crowdin-Project: millix\n"
 "X-Crowdin-Language: nl\n"
 "X-Crowdin-File: /master/i18n/po/template.pot\n"
 "Last-Translator: testz <testzcrypto@gmail.com>\n"
@@ -30,8 +30,8 @@ msgid "12 words separated by dashes"
 msgstr "12 woorden, gescheiden door streepjes"
 
 #: public/views/preferencesGlobal.html:135
-msgid "About Byteball"
-msgstr "Over Byteball"
+msgid "About Millix"
+msgstr "Over Millix"
 
 #: src/js/controllers/copayers.js:8
 #: src/js/controllers/preferencesDelete.js:9
@@ -109,8 +109,8 @@ msgid "All Wallet Addresses"
 msgstr "Allle Portefeuilles"
 
 #: public/views/translators.html:52
-msgid "All contributions to Byteball's translation are welcome. Sign up at crowdin.com and join the Byteball project at"
-msgstr "Alle bijdragen aan de vertaling van Byteball zijn welkom. Meldt u aan bij crowdin.com en sluit u aan bij het Byteball project op"
+msgid "All contributions to Millix's translation are welcome. Sign up at crowdin.com and join the Millix project at"
+msgstr "Alle bijdragen aan de vertaling van Millix zijn welkom. Meldt u aan bij crowdin.com en sluit u aan bij het Millix project op"
 
 #: public/views/modals/multi-payment.html:56
 msgid "Already Paid"
@@ -159,8 +159,8 @@ msgid "Asset"
 msgstr "Activa"
 
 #: public/views/walletHome.html:496
-msgid "Attest profile data linked to any Byteball address."
-msgstr "Bevestig de profiel gegevens die aan een Byteball adres zijn gekoppeld."
+msgid "Attest profile data linked to any Millix address."
+msgstr "Bevestig de profiel gegevens die aan een Millix adres zijn gekoppeld."
 
 #: public/views/walletHome.html:333
 msgid "Attestation"
@@ -241,8 +241,8 @@ msgid "Browser unsupported"
 msgstr "Browser niet ondersteund"
 
 #: public/views/modals/destination-address.html:119
-msgid "Byteball address"
-msgstr "Byteball adres"
+msgid "Millix address"
+msgstr "Millix adres"
 
 #: public/views/includes/password.html:24
 msgid "CANCEL"
@@ -416,8 +416,8 @@ msgid "Could not import. Check input file and password"
 msgstr "Importeren mislukt. Controleer het input bestand en het wachtwoord"
 
 #: src/js/controllers/walletHome.js:51
-msgid "Could not recognize a valid Byteball QR Code"
-msgstr "Dit is geen geldige Byteball QR code"
+msgid "Could not recognize a valid Millix QR Code"
+msgstr "Dit is geen geldige Millix QR code"
 
 #: src/js/controllers/walletHome.js:668
 msgid "Could not send payment"
@@ -545,8 +545,8 @@ msgid "Download CSV file"
 msgstr "Download CSV-bestand"
 
 #: public/views/splash.html:26
-msgid "Download the entire Byteball database"
-msgstr "Gehele Byteball-database downloaden"
+msgid "Download the entire Millix database"
+msgstr "Gehele Millix-database downloaden"
 
 #: public/views/correspondentDevice.html:26
 #: public/views/modals/destination-address.html:38
@@ -808,8 +808,8 @@ msgid "Multidevice Wallet"
 msgstr "Multi-device portefeuille"
 
 #: public/views/walletHome.html:240
-msgid "My Byteball address"
-msgstr "Mijn Byteball adres"
+msgid "My Millix address"
+msgstr "Mijn Millix adres"
 
 #: public/views/correspondentDevice.html:297
 msgid "My recording preference"
@@ -976,8 +976,8 @@ msgid "Port"
 msgstr "Poort"
 
 #: public/views/walletHome.html:502
-msgid "Post arbitrary key-value pairs of data into Byteball network."
-msgstr "Post willekeurige sleutelwaarde-paren van gegevens in het Byteball netwerk."
+msgid "Post arbitrary key-value pairs of data into Millix network."
+msgstr "Post willekeurige sleutelwaarde-paren van gegevens in het Millix netwerk."
 
 #: public/views/walletHome.html:493
 msgid "Post values into datafeeds manually, be an oracle."
@@ -1415,20 +1415,20 @@ msgid "To be able to restore everything, please create a full backup (find the o
 msgstr "Om alles te kunnen herstellen dient u een volledige backup te maken (zie de optie in het menu)"
 
 #: public/views/walletHome.html:558
-msgid "To be able to send arbitrary data into Byteball network, please switch to a single-address wallet first or create one."
-msgstr "Om willekeurige data in het Byteball netwerk te kunnen verzenden, dient u te wisselen naar een één adres portefeuille, of er een te creëren."
+msgid "To be able to send arbitrary data into Millix network, please switch to a single-address wallet first or create one."
+msgstr "Om willekeurige data in het Millix netwerk te kunnen verzenden, dient u te wisselen naar een één adres portefeuille, of er een te creëren."
 
 #: public/views/walletHome.html:420
 msgid "To bind the payment to a condition, please click the peer's address in chat"
 msgstr "Om betalingen aan een voorwaarde te verbinden klikt u op het adres van de wederpartij in de chat"
 
 #: public/views/walletHome.html:390
-msgid "To byteball address"
-msgstr "Naar Byteball adres"
+msgid "To millix address"
+msgstr "Naar Millix adres"
 
 #: public/views/walletHome.html:382
-msgid "To byteball address or email"
-msgstr "Naar Byteball adres of e-mailadres"
+msgid "To millix address or email"
+msgstr "Naar Millix adres of e-mailadres"
 
 #: public/views/modals/tx-details.html:44
 msgid "To email"
@@ -1558,8 +1558,8 @@ msgid "Wallet Name (at creation)"
 msgstr "Naam van de Portefeuille (ten tijde van aanmaken)"
 
 #: src/js/services/profileService.js:436
-msgid "Wallet already in Byteball:"
-msgstr "Portefeuille bestaat reeds in Byteball:"
+msgid "Wallet already in Millix:"
+msgstr "Portefeuille bestaat reeds in Millix:"
 
 #: public/views/create.html:48
 msgid "Wallet name"
@@ -1751,8 +1751,8 @@ msgid "or"
 msgstr "of"
 
 #: public/views/backup.html:24
-msgid "or backup all Byteball data at"
-msgstr "of backup alle Byteball data op"
+msgid "or backup all Millix data at"
+msgstr "of backup alle Millix data op"
 
 #: public/views/modals/offer-contract.html:51
 msgid "peer pays"
