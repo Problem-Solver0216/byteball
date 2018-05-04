@@ -1521,8 +1521,8 @@ msgid "WARNINGS:"
 msgstr "注意:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
-msgstr "BYTEBALLへようこそ"
+msgid "WELCOME TO MILLIX"
+msgstr "MILLIXへようこそ"
 
 #: public/views/copayers.html:24
 msgid "Waiting for co-signers"

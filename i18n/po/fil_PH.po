@@ -1520,8 +1520,8 @@ msgid "WARNINGS:"
 msgstr "MGA BABALA:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
-msgstr "MALIGAYANG PAGDATING SA BYTEBALL"
+msgid "WELCOME TO MILLIX"
+msgstr "MALIGAYANG PAGDATING SA MILLIX"
 
 #: public/views/copayers.html:24
 msgid "Waiting for co-signers"

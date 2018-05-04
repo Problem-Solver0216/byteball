@@ -1521,8 +1521,8 @@ msgid "WARNINGS:"
 msgstr "AVISOS:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
-msgstr "BIENVENIDO A BYTEBALL"
+msgid "WELCOME TO MILLIX"
+msgstr "BIENVENIDO A MILLIX"
 
 #: public/views/copayers.html:24
 msgid "Waiting for co-signers"

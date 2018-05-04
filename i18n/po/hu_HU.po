@@ -1521,8 +1521,8 @@ msgid "WARNINGS:"
 msgstr "FIGYELMEZTETÉSEK:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
-msgstr "A BYTEBALL ÜDVÖZÖL"
+msgid "WELCOME TO MILLIX"
+msgstr "A MILLIX ÜDVÖZÖL"
 
 #: public/views/copayers.html:24
 msgid "Waiting for co-signers"

@@ -31,7 +31,7 @@ msgstr "用破折号隔开的12个单词"
 
 #: public/views/preferencesGlobal.html:135
 msgid "About Millix"
-msgstr "关于ByteBall"
+msgstr "关于Millix"
 
 #: src/js/controllers/copayers.js:8
 #: src/js/controllers/preferencesDelete.js:9
@@ -1521,8 +1521,8 @@ msgid "WARNINGS:"
 msgstr "警告:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
-msgstr "欢迎来到 BYTEBALL"
+msgid "WELCOME TO MILLIX"
+msgstr "欢迎来到 MILLIX"
 
 #: public/views/copayers.html:24
 msgid "Waiting for co-signers"

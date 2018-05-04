@@ -1263,7 +1263,7 @@ msgid "WARNINGS:"
 msgstr ""
 
 #: public/views/splash.html:49
-msgid "WELCOME TO BYTEBALL"
+msgid "WELCOME TO MILLIX"
 msgstr ""
 
 #: public/views/copayers.html:16

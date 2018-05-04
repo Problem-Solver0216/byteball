@@ -1522,7 +1522,7 @@ msgid "WARNINGS:"
 msgstr "चेतावनियाँ:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
+msgid "WELCOME TO MILLIX"
 msgstr "बाइटबॉल में आपका स्वागत है"
 
 #: public/views/copayers.html:24

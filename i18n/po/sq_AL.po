@@ -1520,7 +1520,7 @@ msgid "WARNINGS:"
 msgstr "KUJDES:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
+msgid "WELCOME TO MILLIX"
 msgstr ""
 
 #: public/views/copayers.html:24

@@ -1522,7 +1522,7 @@ msgid "WARNINGS:"
 msgstr "경고:"
 
 #: public/views/splash.html:53
-msgid "WELCOME TO BYTEBALL"
+msgid "WELCOME TO MILLIX"
 msgstr "바이트볼에 오신 것을 환영합니다"
 
 #: public/views/copayers.html:24
